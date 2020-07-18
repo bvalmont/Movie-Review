@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+
+
+
+<body id="body">
+    
+    
+    <nav class="navbar"  style="background-color: black;">
+        <!-- Navbar content -->
+        <span class="navbar-brand mb-0 h1" id= "brand">TV Show Review</span>
+        <div class="topnav-right" id="rigtbuttons">
+         <a href="https://www.rottentomatoes.com" target="_blank" class="btn btn-danger btn-sm" id="button1" role="button" aria-pressed="true">Rotten Tomatoes</a>
+        
+        <a href="https://www.imdb.com" target= "blank" class="btn btn-warning btn-sm" id = "button2" role="button" aria-pressed="true"><strong>IMDb</strong></a>
+        <a href="https://github.com/bvalmont/Movie-Review.git" target="_blank" class="btn btn-danger btn-sm" id="button3" role="button" aria-pressed="true">GitHub</a>
+      
+      </div>
+   
+   
+   
+    </nav>
+      
+
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron text-center" id="jumbotron">
+            <strong><h1 class="display-4" style="color: red">Rotten Tomatoes VS. IMDb</h1></strong>
+            
+        </div>
+      </div>
+
+    
+
+      <div class="container">
+        <div class="row" id="summary">
+            <div class="col-md-10">
+                <!-- Left Content Box -->
+                <div class="box" style="padding-bottom: 20px;">
+                    <h3 class="title">Let's Choose Great TV Shows  </h3>
+                    <hr>
+                    <img src="https://th.bing.com/th/id/OIP.0I5XeJE5w-Rm-9_gb9uzdAHaE3?w=236&h=180&c=7&o=5&pid=1.7" class="vizualization rounded float-left" alt="rottentomatoes" id="versus">
+                    <p>This tool is designed to help users select entertaining TV shows which are available on Netflix, Hulu, Prime Video and Disney +. 
+                     Although the TV shows generated are not a comprehensive listing of all available titles on the platforms, the rankings are valid per Rotten Tomatoes and IMDb.
+                     Use the tool below to find an interesting TV show on all platforms or only the one you have available.  Happy viewing and get your popcorn ready! </p>
+                </div>
+            </div>
+            </div>
+          </div>
+
+          
+
+          <div class = "container">
+            <div class="col-md-12">
+          <div class='tableauPlaceholder' id='viz1594233211692' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NetflixShowReviewsRottenTomatoesvsIMDb&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='NetflixShowReviewsRottenTomatoesvsIMDb&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ne&#47;NetflixShowReviewsRottenTomatoesvsIMDb&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1594233211692');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='1077px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+         
+
+            </div>
+
+          </div>
+
+          <div class="container" id="providers">
+            <div class="row" id="break">
+                <div class="col-md-12">
+                    <!-- Left Content Box -->
+                    <div class="box" style="padding-bottom: 20px;">
+                        <h3 class="title">TV Show Content Providers  </h3>
+                        <hr>
+                        
+                    </div>
+                </div>
+                </div>
+              </div>
+
+
+
+              <div class="container" id="cards">
+                <!--Normally these medium columns go full wide on small screen sizes-->
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://th.bing.com/th/id/OIP.Levp2ZFLrrVA1qzUPechjAHaEa?w=297&h=180&c=7&o=5&pid=1.7" class="card-img-top" alt="Netflix">
+                        <div class="card-body">
+                          <h5 class="card-title">Netflix</h5>
+                          <p class="card-text">Founded in 1997 in Scotts Valley, California.</p>
+                          <a href="https://www.netflix.com" target="blank" class="btn btn-primary" id="netflix">Visit Netflix</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://th.bing.com/th/id/OIP.5VlF1CLJOuKfSCAzVrY0-gHaDo?w=306&h=171&c=7&o=5&pid=1.7" class="card-img-top" alt="Disney+">
+                        <div class="card-body">
+                          <h5 class="card-title">Disney+</h5>
+                          <p class="card-text">Started streaming Nov. 12, 2019.</p>
+                          <a href="https://www.disneyplus.com" target="blank" class="btn btn-primary" id="disney">Visit Disney+</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://th.bing.com/th/id/OIP.nlY5KpjVrP3cFi7QZiVy7wHaEj?w=285&h=180&c=7&o=5&pid=1.7" class="card-img-top" alt="hulu">
+                        <div class="card-body">
+                          <h5 class="card-title">hulu</h5>
+                          <p class="card-text">Launched on Oct. 29, 2007.</p>
+                          <a href="https://www.hulu.com" target="blank" class="btn btn-primary" id="hulu">Visit hulu</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://th.bing.com/th/id/OIP.loitMT63U0pRds6Iiy932gHaEM?w=301&h=180&c=7&o=5&pid=1.7" class="card-img-top" alt="Prime Video">
+                        <div class="card-body">
+                          <h5 class="card-title">Prime Video</h5>
+                          <p class="card-text">Launched on Sep. 7, 2006.</p>
+                          <a href="https://www.primevideo.com" target="blank" class="btn btn-primary" id="prime">Visit PrimeVideo</a>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                </div>
+                   
+                <div class="container" id="words">
+                  <div class="row">
+                    <div class="col-md-12">
+                <h3>Let's See How The 2 Ratings Giants Do Ratings!</h3>
+                <hr>
+                      </div>
+                  </div>
+                </div>
+                
+                
+                <div class="container" id="youtube2">
+                  
+                  <!--Normally these medium columns go full wide on small screen sizes-->
+                  <div class="row">
+                    <div class="col-md-6">
+                      <iframe id="youtube3" width="560" height="315" src="https://www.youtube.com/embed/KCx_FVTOYsU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-6">
+                      <p>I hope you were able to find some great TV shows to watch on four of the major streaming platforms available today.
+                        As mentioned, the titles rated on this site are not an exhaustive listing of shows available on these platforms but the ratings are accurate and just may save you time by comparing Rotten Tomatoes ratings
+                        to IMDb ratings.  You will notice there are shows which get horrible ratings on one rating platform but great ratings on another platform.
+                        Perhaps the really great shows have great ratings on Rotten Tomatoes and IMDb?!  Have fun finding out!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                                    
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<footer id="footer">
+
+  <p id="footer2">This page created by Brandon J. Valmont</p>
+  
+  
+</footer>
+
+
+
+
+
+</html>

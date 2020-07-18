@@ -1,0 +1,84 @@
+#brand {
+    color: red;
+    font-size: x-large;
+    margin-left: 40px;
+}
+
+#button2 {
+    color: black;
+    margin-right: 20px;
+    
+}
+
+#button1 {
+    margin-right: 20px;
+    background-color: red;
+    border-color: red;
+    
+}
+
+#button3 {
+    margin-right: 30px;
+    float: right;
+    background-color: grey;
+    border-color: grey;
+}
+
+#embed {
+    margin-top: 40px;
+}
+
+#body {
+    background-color: whitesmoke;
+
+}
+
+#jumbotron {
+    background-color: black;
+    margin-top: 40px;
+    box-shadow: 5px 10px #888888;
+}
+
+#providers {
+    margin-top: 40px;
+}
+
+#netflix {
+    background-color: black;
+    border-color: black;
+    color: red;
+}
+
+
+#hulu{
+    background-color:  yellowgreen;
+    border-color: yellowgreen;
+}
+
+#disney{
+    background-color: navy;
+    border-color: navy
+}
+
+#youtube2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#words{
+    margin-top: 40px;
+}
+
+#footer{
+    background-color: black;
+}
+
+#footer2{
+    text-align: center;
+    color: red
+}
+
+#youtube3{
+
+    box-shadow: 5px 10px #888888;
+}
