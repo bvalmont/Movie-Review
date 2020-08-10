@@ -3,3 +3,7 @@ The purpose of this project is to give users a tool which helps them choose TV s
 
 The data for this project was available for use from kaggle.com in .csv format.  Data cleaning and modeling was achieved using the Pandas library of Python3. Once the data was cleaned and modeled, it was uploaded to Tableau where the visualizations were created.  HTML5 along with CSS and Bootstrap were used to imbed the visualizations and other information into a webpage which was uploaded to a development server giving uses access to the tool. In addition to TV show reviews, users can get an idea of TV show ratings averages for Rotten Tomtoes and IMDb through the years.  Users can also find convenient links to the reviewers and TV show providers. A video is also included in the webpage which describes how Rotten Tomatoes and IMDb conduct ratings.
 
+### Webpage Address
+https://dashboard.heroku.com/apps/television-shows-reviews
+
+### TV Show Tool Selector Preview
